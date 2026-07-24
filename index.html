@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio [Nama Kamu] — coding project dan hasil video/motion graphic editing.">
+    <title>KyPort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22white%22/>
+      <text x=%2250%22 y=%2268%22 font-size=%2260%22 font-weight=%22700%22 fill=%22black%22 text-anchor=%22middle%22 font-family=%22sans-serif%22>K</text></svg>">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@13/font/simple-icons.min.css">
+</head>
+<body>
+    <!-- Animated Background Orbs -->
+    <div class="bg-orbs" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Progress bar: posisi scroll halaman -->
+    <div class="scrub-bar" id="scrubBar">
+        <div class="scrub-fill" id="scrubFill"></div>
+    </div>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#home">KyPort</a>
+
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#value">Keunggulan</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+      <!-- top page -->
+        <section id="home" class="hero section-shell">
+            <div class="hero-content reveal">
+                <p class="eyebrow"><i class="fa-solid fa-house"></i>Kynich | Developer & Video Editor</p>
+                <h1> Merancang website yang rapi dan video yang berkesan, lewat<span class="gradient-text"> programming dan editing</span>.</h1>
+                <p class="hero-desc">
+                    Saya Kynich, mahasiswa Teknologi Rekayasa Perangkat Lunak yang memiliki minat di bidang Editing dan Desain melalui app Ae/Am. 
+                    Saya juga sedang mempelajari pengembangan aplikasi dengan Laravel dan Flutter untuk terus mengembangkan kemampuan teknis dan kreativitas saya.
+
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn primary" href="#projects">Lihat Proyek</a>
+                    <a class="btn secondary" href="mailto:kynichofficial@gmail.com">Hubungi Saya</a>
+                </div>
+
+                <div class="social-icons" aria-label="Social links">
+                    <a href="https://github.com/kynich01" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/kynich_" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discordapp.com/users/1094256387032367264" target="_blank" rel="noopener" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="mailto:kynichofficial@gmail.com" aria-label="Discord"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-card reveal delay-1" aria-label="Profile summary card">
+                <div class="avatar-frame">
+                    <img src="assets/photo_profile.jpg" alt="photo_profile">
+                    <!-- <div class="avatar-placeholder">Foto Profil</div> -->
+                </div>
+                <div class="availability-card">
+                    <span class="status-dot"></span>
+                    Terbuka untuk kolaborasi project coding maupun editing.
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <strong>Code</strong>
+                        <span>Laravel/Flutter Mobile App</span>
+                    </div>
+                    <div>
+                        <strong>Editing</strong>
+                        <span>MV/Motion Graphics</span>
+                    </div>
+                    <div>
+                        <strong>Apps</strong>
+                        <span>AfterEffects/Vs Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tentang saya -->
+        <section id="about" class="about section-shell">
+            <div class="section-heading reveal">
+                <p class="eyebrow"><i class="fa-solid fa-user"></i> Tentang Saya</p>
+                <h2>Mahasiswa yang nyaman berada di pertemuan antara pengembangan web/app dan editing Video.</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text glass-card reveal">
+                    <p>
+                        Saya kynich, mahasiswa Teknologi Rekayasa Perangkat Lunak yang memiliki ketertarikan pada dunia teknologi dan industri kreatif. 
+                        Saya menikmati proses mempelajari bagaimana sebuah ide dapat dikembangkan menjadi sebuah aplikasi yang bermanfaat, sekaligus bagaimana sebuah konsep 
+                        dapat divisualisasikan melalui video dan motion graphic yang menarik.
+                    </p>
+                    <p>
+                        Dalam dunia programing, saya mempelajari dan mengembangkan project app pemesanan makanan dan weather tracking dengan teknologi seperti Laravel/Flutter. 
+                        Selain coding, saya juga tertarik pada video editing music video dan desain motion graphic.
+                    </p>
+                    <p>
+                        Saya terus belajar dan mengembangkan kemampuan di kedua bidang ini untuk menggabungkan kemampuan teknis dan kreativitas dalam menghasilkan karya yang lebih baik.
+                    </p>
+                </div>
+
+                <div class="focus-panel reveal delay-1">
+                    <h3>Fokus Saya</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-code"></i> Junior Web Developer</li>
+                        <li><i class="fa-solid fa-laptop-code"></i> Junior Software Engineer</li>
+                        <li><i class="fa-solid fa-film"></i> Editor Video (After Effects / Alight Motion)</li>
+                        <li><i class="fa-solid fa-shapes"></i> Desain Motion Graphic (After Effect / Alight Motion / Canva / Figma)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyek -->
+        <section id="projects" class="projects section-shell">
+            <div class="section-heading center reveal">
+                <p class="eyebrow"><i class="fa-solid fa-briefcase"></i> Karya Pilihan</p>
+                <h2>Project yang menunjukkan cara saya bekerja.</h2>
+                <p class="section-desc">Kombinasi project coding dan hasil editing video yang pernah saya kerjakan.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-visual pnbfoods">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Flutter + Laravel</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-type">Coding</p>
+                        <h3>PNBFoods</h3>
+                        <p>
+                            Sebuah aplikasi mobile pemesanan makanan berbasis Flutter dengan backend laravel
+                            di area kampus Politekni Negri Bali.
+                        </p>
+                        <div class="project-points">
+                            <span>Keranjang</span>
+                            <span>checkout</span>
+                            <span>Qris</span>
+                        </div>
+                        <div class="tags">
+                            <span>Dart</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal delay-1">
+                    <div class="project-visual pawangin">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Flutter</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-type">Coding</p>
+                        <h3>Pawangin</h3>
+                        <p>
+                           Sebuah aplikasi weather tracking berbasis API OpenWeather yang bisa melacak cuaca suatu kota atau negara.
+                        </p>
+                        <div class="project-points">
+                            <span>Prakiraan real-time</span>
+                            <span>Pencarian cuaca</span>
+                        </div>
+                        <div class="tags">
+                            <span>Dart</span>
+                            <span>API</span>
+                            <span>Lottie</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal delay-2">
+                    <div class="project-visual mv">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Music Video</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-type">Editing</p>
+                        <h3>Anime Music Video</h3>
+                        <p>
+                            Sebuah video music yang di tambah dengan gambar animasi jepang atau menggunakan
+                            scen animasi langsung.
+                        </p>
+                        <div class="project-points">
+                            <span>Mograph</span>
+                            <span>beat</span>
+                        </div>
+                        <div class="tags">
+                            <span>After Effects</span>
+                            <span>Alight Motion</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Keunggulan -->
+        <section id="value" class="value section-shell">
+            <div class="section-heading center reveal">
+                <p class="eyebrow"><i class="fa-solid fa-award"></i> Kenapa Saya Menarik</p>
+                <h2>Fondasi teknis, rasa ingin tahu, dan kebiasaan belajar yang sehat.</h2>
+            </div>
+
+            <div class="value-grid">
+                <div class="value-card reveal">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Cukup mampu menghubungkan aplikasi Flutter dengan backend Laravel, dari API sampai tampilan.</p>
+                </div>
+                <div class="value-card reveal delay-1">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video & Motion Graphic Editing</h3>
+                    <p>Mengerjakan editing video dan motion graphic pakai After Effects dan Alight Motion, dari AMV sampai konten visual lainnya.</p>
+                </div>
+                <div class="value-card reveal delay-2">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h3>Kolaborasi Tim</h3>
+                    <p>Berpengalaman kerja dalam tim project, termasuk menyelaraskan environment dan arsitektur antar anggota.</p>
+                </div>
+                <div class="value-card reveal delay-3">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <h3>Dokumentasi Rapi</h3>
+                    <p>Terbiasa mendokumentasikan kode dan alur project secara terstruktur, memudahkan anggota tim memahami project.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill -->
+        <section id="skills" class="skills section-shell">
+            <div class="section-heading center reveal">
+                <p class="eyebrow"><i class="fa-solid fa-brain"></i> Skills</p>
+                <h2>Tools yang pernah saya gunakan.</h2>
+                <p class="section-desc">Dikelompokkan berdasarkan sisi coding dan editing biar lebih mudah dilihat.</p>
+            </div>
+
+            <div class="skills-layout">
+                <div class="skill-category reveal">
+                    <h3>Web</h3>
+                    <div class="skill-list">
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-js-square"></i> JS</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal delay-1">
+                    <h3>Mobile Apps</h3>
+                    <div class="skill-list">
+                        <span><i class="fa-solid fa-code"></i> Dart</span>
+                        <span><i class="fa-brands fa-php"></i> PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal delay-2">
+                    <h3>Editing & Kreatif</h3>
+                    <div class="skill-list">
+                        <span><i class="si si-adobeaftereffects"></i> After Effects</span>
+                        <span><i class="fa-solid fa-clapperboard"></i> Alight Motion</span>
+                        <span><i class="si si-figma"></i> Figma</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal delay-3">
+                    <h3>Working Habits</h3>
+                    <div class="skill-list">
+                        <span><i class="fa-brands fa-git-alt"></i> Git dasar</span>
+                        <span><i class="fa-solid fa-bug"></i> Debugging</span>
+                        <span><i class="fa-solid fa-file-lines"></i> Dokumentasi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="contact" class="contact section-shell">
+            <div class="contact-card reveal">
+                <div class="contact-copy">
+                    <p class="eyebrow"><i class="fa-solid fa-paper-plane"></i> Kontak</p>
+                    <h2>Mari diskusikan project, kolaborasi, atau peluang kerja.</h2>
+                    <p>
+                        Saya terbuka untuk kesempatan belajar dan berkontribusi, baik di sisi development maupun editing. Hubungi lewat salah satu kanal berikut.
+                    </p>
+
+                    <div class="contact-links">
+                        <a href="mailto:kynichofficial@gmail.com"><i class="fa-solid fa-envelope"></i> kynichofficial@gmail.com</a>
+                        <a href="https://github.com/kynich01" target="_blank" rel="noopener"><i class="fab fa-github"></i> github.com/kynich01</a>
+                        <a href="https://www.instagram.com/kynich_" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> instagram.com/kynich_</a>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/xjgnenrk" method="POST">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Nama Anda">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
+
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Halo, saya ingin berdiskusi tentang..."></textarea>
+
+                    <button type="submit" class="btn primary">Kirim via Email</button>
+                    <p class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Dibuat oleh kynich — Senang bekerja sama dengan anda.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
