@@ -28,6 +28,7 @@
   /* color Ace-modf */
   --accent-modf: linear-gradient(135deg, #d9895a, #b06a3f, #8a5238);
   --accent-modf2: linear-gradient(135deg, #c9773f, #7a4a2e);
+  
   /* Radius */
   --radius-sm: 10px;
   --radius-md: 16px;

@@ -34,17 +34,14 @@ const navLinks = document.querySelectorAll('.nav-links a');
 function updateActiveLink() {
     const scrollY = window.scrollY + 200;
 
-    // Cek dulu: udah mentok di bawah belum?
     const sudahMentok = window.innerHeight + window.scrollY >= document.body.offsetHeight - 100;
 
     if (sudahMentok) {
-        // Kalau udah mentok, matiin semua link, terus nyalain cuma yang terakhir
         navLinks.forEach(link => link.classList.remove('active'));
         navLinks[navLinks.length - 1].classList.add('active');
-        return; // stop di sini, gak usah lanjut ke loop di bawah
+        return; 
     }
 
-    // Kode asli kamu yang lama, tetap jalan normal kalau BELUM mentok
     sections.forEach(section => {
         const top = section.offsetTop;
         const height = section.offsetHeight;
@@ -100,7 +97,6 @@ form.addEventListener('submit', function(e) {
 
     showMessage('Mengirim pesan...', '#cccccc');
 
-    // Kirim data form langsung ke Formspree lewat fetch, tanpa reload halaman
     fetch(form.action, {
         method: 'POST',
         body: new FormData(form),
