@@ -5,4 +5,4 @@ Thumbs.db
 # Editor
 .*
 !.gitignore
-!.gittributes
+!.gitattributes
