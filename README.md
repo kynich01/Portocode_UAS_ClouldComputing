@@ -63,4 +63,4 @@ Form kontak terhubung ke layanan [Formspree](https://formspree.io), sehingga pes
 ## Developer
 - **Nama**: Kynich
 - **GitHub**: [@kynich01](https://github.com/kynich01)
-- **Website**: [KyPort](https://kynich01.github.io/portocode_opensource/)
+- **Website**: [KyPort](https://kynich01.github.io/KyPORT/)
