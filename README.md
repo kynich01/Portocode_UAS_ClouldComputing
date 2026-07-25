@@ -43,9 +43,7 @@ portocode_opensource/
 ├── style.css
 ├── script.js
 └── assets/
-    ├── photo_profile.jpg
-    ├── pnb_thumb.png
-    └── (thumbnail project lainnya)
+    └── Photo_profile.jpg
 ```
 
 ---
